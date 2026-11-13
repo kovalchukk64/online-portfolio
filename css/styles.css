@@ -236,3 +236,10 @@ body {
   color: #64748b;
   font-size: 0.9rem;
 }
+
+/* Покращення інтерактивності карток */
+.skill-box:hover, .project-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--primary-color);
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
